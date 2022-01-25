@@ -6,4 +6,14 @@ things_that_would_be_better_with_bacon = ["tacos", "cheeseburgers", "donuts"]
 
 # The Old Way
 
+# puts "bacon #{things_that_would_be_better_with_bacon[0]}"
+# puts "bacon #{things_that_would_be_better_with_bacon[1]}"
+# puts "bacon #{things_that_would_be_better_with_bacon[2]}"
+
 # The New Way
+
+for thing in things_that_would_be_better_with_bacon
+    # 1st time thing == taco
+    # 2nd time thing == cheeseburger
+    puts "bacon #{thing}"
+end 

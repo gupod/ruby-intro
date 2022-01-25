@@ -10,15 +10,17 @@ profile = {
         state: "IL"
 },
     status: "Surf"
-    timeline:[
-        {status:"in class", posted:"8h30"},
-        {status:"eating tacos", posted:"12h"} ]
+},
+timeline: [
+  { stat: 65, posted: "Mostly Cloudy" },
+  { stat: 70, posted: "Partly Cloudy" }
+]
 }
 
 puts profile [:name]
 puts profile [:location][:city]
 # Accessing data from the hash
 
-puts profile [:timeline][0][:status]
+puts profile [:timeline][0][:stat]
 
 # More Complex Hashes
