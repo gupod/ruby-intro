@@ -23,10 +23,23 @@ puts 5.0/2.0
 puts (2+5)*5
 
 # Strings
+puts "Hello, world!"
 
 # Combine strings together
 
+puts "Tacos are" + " awesome" + "!"
+
+puts "tacos"*3
+puts "tacos"+3.to_s
+
 # Variables
+
+x=10
+y=3
+puts x*y
+food = "tacos"
+quantity = 3
+puts food*quantity
 
 # Combine strings and variables
 
