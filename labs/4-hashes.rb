@@ -26,3 +26,17 @@ weather_data = {
     { temperature: 70, conditions: "Partly Cloudy" }
   ]
 }
+
+today_temp = weather_data [:current][:temperature]
+today_cond = weather_data [:current][:conditions]
+
+tomm_temp = weather_data [:forecast][0][:temperature]
+tomm_cond = weather_data [:forecast][0][:conditions]
+
+day_after_temp = weather_data [:forecast][1][:temperature]
+day_after_cond = weather_data [:forecast][1][:conditions]
+
+puts "Today will be #{today_temp} degrees with #{today_cond} skies"
+puts "Tomorrow will be #{tomm_temp} degrees with #{tomm_cond} skies"
+puts "The day after tomorrow will be #{day_after_temp} degrees with #{day_after_cond} skies"
+
