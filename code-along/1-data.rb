@@ -43,4 +43,18 @@ puts food*quantity
 
 # Combine strings and variables
 
+first_name = "Boba"
+greeting = "Hello, #{first_name}" # string interpolation
+puts greeting
+
+puts "tacos: #{quantity}"
+
 # String manipulation
+
+puts "Hello".reverse
+puts "Hello, world".capitalize
+puts "Hello".length
+creed = "This Is The Way"
+puts creed.upcase
+puts creed.downcase
+puts creed.swapcase
