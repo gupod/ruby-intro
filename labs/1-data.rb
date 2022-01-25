@@ -15,6 +15,7 @@ dice_2 = rand(1..6)
 
 puts "Dice 1: #{dice_1}"
 puts "Dice 2: #{dice_2}"
+puts "Total: #{dice_1 + dice_2}"
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
