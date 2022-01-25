@@ -10,12 +10,19 @@
 # then write them out to the screen. Show the total
 # as well.
 
+# roll both dice
 dice_1 = rand(1..6)
 dice_2 = rand(1..6)
 
+# write the results of the rolls 
 puts "Dice 1: #{dice_1}"
 puts "Dice 2: #{dice_2}"
-puts "Total: #{dice_1 + dice_2}"
+
+#create a variable for total
+total=dice_1+dice_2
+
+#write total
+puts "Total: #{total}"
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
